@@ -4,16 +4,14 @@
 function personName (firstName,lastName) {
 
     // creo un oggetto con le due proprietà
-    const names = {
-        firstName : "firstName",
-        lastName : "lastName",
-    }
-
-    return names
+    return {
+        firstName: firstName,
+        lastName: lastName,
+    }    
 }
 
 // esporto la funzione
-module.exports = personName;
+// module.exports = personName;
 
-// console.log(personName());
+console.log(personName("antonio","ciao"));
  
